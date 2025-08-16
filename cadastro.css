@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(20, 41, 15);
+}
+
+.cabelhaço {
+    background: linear-gradient(to right, #062b01, #062b01);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 179.7px;
+}
+
+.menu-navegacao ul{
+       list-style: none;
+       display: flex;
+       gap: 10px;
+       align-items: center;
+}
+
+.botao-menu {
+    background-color:rgb(78, 161, 33);
+    color: rgb(13, 44, 1);
+    text-decoration: none;
+    padding: 13px 20px;
+    border-radius: 5px;
+    border: 1px solid #072b00;
+    transition: background-color 0.3s, color 0,3s;
+    font-weight: bold;
+}
+
+.botao-menu:hover{
+    background-color: #22570d;
+    color:333;
+}
+
+.container-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.formulario-card {
+    background-color: #418128;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formulario-card h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.campo {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #002400;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#botao-enviar {
+    background-color: #0a6b17;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#botao-enviar:hover {
+    background-color: #61b46a;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    text-align: center;
+}
